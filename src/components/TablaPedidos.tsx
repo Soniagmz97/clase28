@@ -19,18 +19,6 @@ const TablaPedidos = () => {
         </tr>
       </thead>
       <tbody>
-        {/* <tr>
-          <td>{pedidos[0].id}</td>
-          <td>{pedidos[0].cliente}</td>
-          <td>{pedidos[0].total}</td>
-          <td className={pedidos[0].estado === 'Entregado' ? 'bg-green-100' : pedidos[0].estado === 'Pendiente' ? 'bg-yellow-100' : 'bg-red-100'}>{pedidos[0].estado}</td>
-        </tr>
-        <tr>
-          <td>{pedidos[1].id}</td>
-          <td>{pedidos[1].cliente}</td>
-          <td>{pedidos[1].total}</td>
-          <td className={pedidos[1].estado === 'Entregado' ? 'bg-green-100' : pedidos[1].estado === 'Pendiente' ? 'bg-yellow-100' : 'bg-red-100'}>{pedidos[1].estado}</td>
-        </tr> */}
         {
           pedidos.map(p => (
             <tr>
